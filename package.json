@@ -29,7 +29,7 @@
     "name": "Alessandro (silversonicaxel) Rabitti",
     "url": "https://github.com/silversonicaxel"
   },
-"license": "MIT",
+  "license": "MIT",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/ts/index.d.ts",
