@@ -1,6 +1,6 @@
 # Storybook Addon Spotify
 
-The [Storybook Addon Spotify](https://storybook.js.org/addons/storybook-spotify/) is used to easily embed a Spotify iframe to display any of all available types of content, as a playlist, an album, a song, a podcast or an episode within a [Storybook](https://storybook.js.org) panel.
+The [Storybook Addon Spotify](https://storybook.js.org/addons/storybook-spotify/) is used to easily embed a Spotify iframe to display any of all available types of Spotify content, as a playlist, an album, a song, a podcast or an episode within a [Storybook](https://storybook.js.org) panel.
 ## Installation
 
 ```sh
