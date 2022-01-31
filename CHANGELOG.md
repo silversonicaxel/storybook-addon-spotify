@@ -1,3 +1,15 @@
+# v3.1.0 (Mon Jan 31 2022)
+
+#### 🚀 Enhancement
+
+- Add icon of Spotify Addon [#4](https://github.com/silversonicaxel/storybook-addon-spotify/pull/4) ([@silversonicaxel](https://github.com/silversonicaxel))
+
+#### Authors: 1
+
+- Alessandro Rabitti ([@silversonicaxel](https://github.com/silversonicaxel))
+
+---
+
 # v3.0.0 (Mon Jan 31 2022)
 
 #### 💥 Breaking Change
