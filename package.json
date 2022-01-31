@@ -1,6 +1,6 @@
 {
   "name": "storybook-spotify",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Add Spotify to the Storybook panel",
   "keywords": [
     "storybook-addons",
@@ -29,7 +29,7 @@
     "name": "Alessandro (silversonicaxel) Rabitti",
     "url": "https://github.com/silversonicaxel"
   },
-"license": "MIT",
+  "license": "MIT",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/ts/index.d.ts",

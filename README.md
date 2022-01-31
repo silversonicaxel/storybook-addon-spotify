@@ -54,14 +54,22 @@ export default {
 
 ## Examples
 
-![React Storybook Screenshot](https://raw.githubusercontent.com/etchteam/storybook-addon-status/master/screenshot.png)
+### Playlist
 
 ![](images/playlist.png)
 
+### Album
+
 ![](images/album.png)
+
+### Song
 
 ![](images/track.png)
 
+### Podcast
+
 ![](images/podcast-show.png)
+
+### Episode
 
 ![](images/episode.png)
