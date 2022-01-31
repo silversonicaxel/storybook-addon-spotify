@@ -54,12 +54,22 @@ export default {
 
 ## Examples
 
+### Playlist
+
 ![](images/playlist.png)
+
+### Album
 
 ![](images/album.png)
 
+### Song
+
 ![](images/track.png)
 
+### Podcast
+
 ![](images/podcast-show.png)
+
+### Episode
 
 ![](images/episode.png)
