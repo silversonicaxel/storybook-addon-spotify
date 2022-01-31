@@ -106,6 +106,6 @@
       "vue",
       "angular"
     ],
-    "icon": ""
+    "icon": "https://raw.githubusercontent.com/silversonicaxel/storybook-addon-spotify/main/icon.png"
   }
 }
