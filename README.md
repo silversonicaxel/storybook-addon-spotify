@@ -54,8 +54,6 @@ export default {
 
 ## Examples
 
-![React Storybook Screenshot](https://raw.githubusercontent.com/etchteam/storybook-addon-status/master/screenshot.png)
-
 ![](images/playlist.png)
 
 ![](images/album.png)
