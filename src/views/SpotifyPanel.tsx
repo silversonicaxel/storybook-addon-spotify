@@ -2,7 +2,9 @@ import React from 'react'
 import { useParameter } from '@storybook/api'
 import { ADDON_PARAM_KEY } from '../constants'
 import { AddonPanel } from '@storybook/components'
-import type { AddonParamSpotify } from '../types'
+import type { AddonSpotifyParameters } from '../types'
+import { parseUrl } from '../lib'
+import { SpotifyError } from './SpotifyError'
 
 interface SpotifyPanelProps {
   active: boolean
@@ -10,15 +12,21 @@ interface SpotifyPanelProps {
 }
 
 export const SpotifyPanel = (props: SpotifyPanelProps) => {
-  const parameters: AddonParamSpotify = useParameter(ADDON_PARAM_KEY, null)
+  const parameters: AddonSpotifyParameters = useParameter(ADDON_PARAM_KEY, null)
 
   if (parameters?.url) {
     const { url } = parameters
 
+    const parsedUrlData = parseUrl(url)
+
+    if(parsedUrlData.error) {
+      return <AddonPanel {...props}><SpotifyError error={parsedUrlData.error} /></AddonPanel>    
+    }
+
     return (
       <AddonPanel {...props}>
         <iframe 
-          src={url} 
+          src={parsedUrlData.url} 
           width="100%" 
           height="100%" 
           frameBorder="0" 
@@ -28,5 +36,6 @@ export const SpotifyPanel = (props: SpotifyPanelProps) => {
     )
   }
 
-  return <AddonPanel {...props}>Wrong Spotify Configuration</AddonPanel>
+  const genericError = 'The configuration parameters are incorrect.'
+  return <AddonPanel {...props}><SpotifyError error={genericError} /></AddonPanel>
 }
