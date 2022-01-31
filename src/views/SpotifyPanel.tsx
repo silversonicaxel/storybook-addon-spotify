@@ -2,7 +2,7 @@ import React from 'react'
 import { useParameter } from '@storybook/api'
 import { ADDON_PARAM_KEY } from '../constants'
 import { AddonPanel } from '@storybook/components'
-import type { AddonSpotifyParameters } from '../types'
+import { AddonSpotifyParameters } from '../types'
 import { parseUrl } from '../lib'
 import { SpotifyError } from './SpotifyError'
 

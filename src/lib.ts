@@ -1,4 +1,4 @@
-import type { AddonSpotifyUrl } from './types'
+import { AddonSpotifyUrl } from './types'
 
 export const parseUrl = (url: string): AddonSpotifyUrl => {
   if(!url.includes('spotify')) {
