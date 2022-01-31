@@ -1,6 +1,6 @@
 {
   "name": "storybook-spotify",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Add Spotify to the Storybook panel",
   "keywords": [
     "storybook-addons",
