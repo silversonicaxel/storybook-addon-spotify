@@ -29,8 +29,7 @@ export const SpotifyPanel = (props: SpotifyPanelProps) => {
           src={parsedUrlData.url} 
           width="100%" 
           height="100%" 
-          frameBorder="0" 
-          allowtransparency="true"
+          frameBorder="0"
           allow="clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
       </AddonPanel>
     )
