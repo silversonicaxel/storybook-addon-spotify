@@ -1,4 +1,4 @@
-import { addons, types } from '@storybook/addons'
+import { addons, types } from '@storybook/manager-api'
 import { ADDON_ID, ADDON_PANEL_ID, ADDON_PARAM_KEY } from '../constants'
 import { SpotifyPanel } from '../views/SpotifyPanel'
 
