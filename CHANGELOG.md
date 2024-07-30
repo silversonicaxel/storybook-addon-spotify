@@ -1,3 +1,15 @@
+# v3.1.1 (Tue Jul 30 2024)
+
+#### 🐛 Bug Fix
+
+- Migrate to Storybook 8 [#6](https://github.com/silversonicaxel/storybook-addon-spotify/pull/6) ([@silversonicaxel](https://github.com/silversonicaxel))
+
+#### Authors: 1
+
+- Alessandro Rabitti ([@silversonicaxel](https://github.com/silversonicaxel))
+
+---
+
 # v3.1.0 (Mon Jan 31 2022)
 
 #### 🚀 Enhancement
