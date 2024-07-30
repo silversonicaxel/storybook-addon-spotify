@@ -1,5 +1,5 @@
 import React from 'react'
-import { useParameter } from '@storybook/api'
+import { useParameter } from '@storybook/manager-api'
 import { ADDON_PARAM_KEY } from '../constants'
 import { AddonPanel } from '@storybook/components'
 import type { AddonSpotifyParameters } from '../types'
@@ -20,15 +20,15 @@ export const SpotifyPanel = (props: SpotifyPanelProps) => {
     const parsedUrlData = parseUrl(url)
 
     if(parsedUrlData.error) {
-      return <AddonPanel {...props}><SpotifyError error={parsedUrlData.error} /></AddonPanel>    
+      return <AddonPanel {...props}><SpotifyError error={parsedUrlData.error} /></AddonPanel>
     }
 
     return (
       <AddonPanel {...props}>
-        <iframe 
-          src={parsedUrlData.url} 
-          width="100%" 
-          height="100%" 
+        <iframe
+          src={parsedUrlData.url}
+          width="100%"
+          height="100%"
           frameBorder="0"
           allow="clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
       </AddonPanel>
